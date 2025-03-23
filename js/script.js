@@ -8,8 +8,8 @@
 
 function calculateAreaOfParallelogram () {
   // input
-  const baselength = parseInt(document.getElementById('base-length').value)
-  const heightlength = parseInt(document.getElementById('height-length').value)
+  const baselength = parseFloat(document.getElementById('base-length').value)
+  const heightlength = parseFloat(document.getElementById('height-length').value)
 
   // process
   const areaOfParallelogram = baselength * heightlength
